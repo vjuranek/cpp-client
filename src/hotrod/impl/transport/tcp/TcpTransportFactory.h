@@ -36,6 +36,7 @@ class TcpTransportFactory : public TransportFactory
 
     bool isTcpNoDelay();
     int getTransportCount();
+    int getMaxRetries();
     int getSoTimeout();
     int getConnectTimeout();
 

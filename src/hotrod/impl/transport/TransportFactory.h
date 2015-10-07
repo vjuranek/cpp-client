@@ -40,6 +40,7 @@ class TransportFactory
 
     virtual bool isTcpNoDelay() = 0;
     virtual int getTransportCount() = 0;
+    virtual int getMaxRetries() = 0;
     virtual int getSoTimeout() = 0;
     virtual int getConnectTimeout() = 0;
 
